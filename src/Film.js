@@ -1,0 +1,11 @@
+function Film(props) {
+    const film = props.film;
+    return (
+        <div className="card">
+            <h1>{film.title}</h1>
+            <p>{film.description.substring(0, 289) + '...'}</p>
+          </div>
+    );
+}
+
+export default Film;

@@ -1,5 +1,6 @@
 import "./App.css";
 import { useEffect, useState } from "react";
+import Film from "./Film.js";
 
 function App() {
   const [films, setFilms] = useState([]);
@@ -16,13 +17,10 @@ function App() {
 
   return (
     <div className="App">
-      <img src='logo.png' alt="logo"></img>
+      <img src='/public/logo.png' alt="logo"></img>
       <div className="container">
         {films.map((film) => (
-          <div key={film.id} className="card">
-            <h1>{film.title}</h1>
-            <p>{film.description.substring(0, 289) + '...'}</p>
-          </div>
+          <Film key={film.id} film={film}/>
         ))}
       </div>
     </div>
