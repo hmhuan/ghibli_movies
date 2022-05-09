@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ghibli_films/static/css/main.2ab8d110.css",
+    "main.js": "/ghibli_films/static/js/main.8ff2281b.js",
+    "index.html": "/ghibli_films/index.html",
+    "main.2ab8d110.css.map": "/ghibli_films/static/css/main.2ab8d110.css.map",
+    "main.8ff2281b.js.map": "/ghibli_films/static/js/main.8ff2281b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2ab8d110.css",
+    "static/js/main.8ff2281b.js"
+  ]
+}
