@@ -17,7 +17,7 @@ function App() {
 
   return (
     <div className="App">
-      <img src='logo.jpg' alt="logo"></img>
+      <img src='logo.png' alt="logo"></img>
       <div className="container">
         {films.map((film) => (
           <div key={film.id} className="card">
